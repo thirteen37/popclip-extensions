@@ -1,0 +1,9 @@
+# Popclip extension to generate a gh clone command from a repo name
+name: Github repo
+icon: icon.png
+popclip version: 3785
+action:
+  name: Github repo clone
+  regex: '[-a-zA-Z0-9]+\s?/\s?[-a-zA-Z0-9]+'
+  javascript: return popclip.input.text.replace(/(\w+)\s?\/(\w+)/, 'gh repo clone $1/$2')
+  after: copy-result
