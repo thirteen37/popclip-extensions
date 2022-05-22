@@ -1,0 +1,7 @@
+# Popclip extension to generate a WhatsApp https://wa.me/ link from a phone number
+name: WhatsApp
+icon: icon.png
+popclip version: 3785
+regex: '[0-9]+'
+module: whatsapp.js
+after: copy-result
