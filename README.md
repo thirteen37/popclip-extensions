@@ -9,4 +9,12 @@ Custom [Popclip](https://pilotmoon.com/popclip/) extensions.
 
 ## Available extensions
 
-* `github-repo`: Generate the clone command for the [`gh`](https://github.com/cli/cli) tool from a repo name.
+* `github-repo`: Generate the clone command for the
+  [`gh`](https://github.com/cli/cli) tool from a repo name.
+* `whatsapp`: Generate and a WhatsApp ["click to
+  chat"](https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/) link
+  from a phone number.
+
+## Attribution
+
+Icons from [Noun Project](https://thenounproject.com/).

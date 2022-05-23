@@ -5,3 +5,8 @@ popclip version: 3785
 regex: '[0-9]+'
 module: whatsapp.js
 after: copy-result
+options:
+  - identifier: country
+    type: string
+    label: Country code
+    default value: SG
